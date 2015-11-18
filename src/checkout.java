@@ -14,7 +14,7 @@ public class checkout {
 	@FindBy(how=How.ID, using="enterAddressAddressLine1")
 	WebElement add1;
 	
-	@FindBy(how=How.ID, using="ap_customer_name")
+	@FindBy(how=How.ID, using="enterAddressCity")
 	WebElement city;
 	
 	@FindBy(how=How.ID, using="enterAddressPostalCode")
