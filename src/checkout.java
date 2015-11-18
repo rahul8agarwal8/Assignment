@@ -20,7 +20,7 @@ public class checkout {
 	@FindBy(how=How.ID, using="enterAddressPostalCode")
 	WebElement postal;
 	
-	@FindBy(how=How.ID, using="ap_password")
+	@FindBy(how=How.ID, using="enterAddressPhoneNumber")
 	WebElement phone;
 	
 	@FindBy(how=How.XPATH, using="//*[@id='newShippingAddressFormFromIdentity']/div[1]/div/form/div[7]/span/span/input")
