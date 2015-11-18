@@ -11,7 +11,7 @@ public class checkout {
 	@FindBy(how=How.ID, using="enterAddressFullName")
 	WebElement full_name;
 	
-	@FindBy(how=How.XPATH, using="enterAddressAddressLine1")
+	@FindBy(how=How.ID, using="enterAddressAddressLine1")
 	WebElement add1;
 	
 	@FindBy(how=How.ID, using="ap_customer_name")
